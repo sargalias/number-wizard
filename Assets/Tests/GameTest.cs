@@ -17,5 +17,18 @@ namespace Tests {
 
             Assert.AreEqual(result, guess);
         }
+
+        [Test]
+        public void gameHelper_can_find_guess_2_with_numbers_1_to_1000() {
+            int guess = 2;
+
+            GameHelper gameHelper = new GameHelper();
+            gameHelper.initialise(1, 1000);
+            int result = gameHelper.guess();
+            gameHelper.feedbackGuessWasLow();
+            result = gameHelper.guess();
+
+            Assert.AreEqual(result, guess);
+        }
     }
 }

@@ -2,11 +2,21 @@
 using System.Collections.Generic;
 
 public class GameHelper {
-    public void initialise(int low, int high) {
+    private int _low;
+    private int _high;
+    private int nextGuess;
 
+    public void initialise(int low, int high) {
+        _low = low;
+        _high = high;
+        nextGuess = 1;
+    }
+
+    public void feedbackGuessWasLow() {
+        nextGuess = 2;
     }
 
     public int guess() {
-        return 1;
+        return nextGuess;
     }
 }
