@@ -38,8 +38,7 @@ namespace Tests {
         }
 
         private void testChoiceNumber(int num, int maxTries) {
-            GameHelper gameHelper = new GameHelper();
-            gameHelper.initialise(1, 1000);
+            GameHelper gameHelper = new GameHelper(1, 1000);
 
             int guess = gameHelper.guess();
             int currentTry = 1;
