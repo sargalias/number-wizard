@@ -27,6 +27,11 @@ namespace Tests {
             testChoiceNumber(999, 10);
         }
 
+        [Test]
+        public void gameHelper_can_find_guess_5_with_numbers_1_to_1000() {
+            testChoiceNumber(5, 10);
+        }
+
         private void testChoiceNumber(int num, int maxTries) {
             GameHelper gameHelper = new GameHelper();
             gameHelper.initialise(1, 1000);
