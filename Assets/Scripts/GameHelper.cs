@@ -5,7 +5,6 @@ using System.Linq;
 public class GameHelper {
     private int _low;
     private int _high;
-    private int lastGuess;
 
     public void initialise(int low, int high) {
         _low = low;
