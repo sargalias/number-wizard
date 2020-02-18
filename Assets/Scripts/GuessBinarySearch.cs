@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class GameHelper {
+public class GuessBinarySearch {
     private int _low;
     private int _high;
 
-    public GameHelper(int low, int high) {
+    public GuessBinarySearch(int low, int high) {
         _low = low;
         _high = high;
     }
