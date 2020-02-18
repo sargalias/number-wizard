@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class GuessBinarySearch {
+public class GuessBinarySearch : IGuessBinarySearch {
     private int _low;
     private int _high;
 
