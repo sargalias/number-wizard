@@ -7,4 +7,8 @@ public class SceneLoader : MonoBehaviour {
         int nextScene = (currentScene + 1) % 3;
         SceneManager.LoadScene(nextScene);
     }
+
+    public void OnQuit() {
+        Application.Quit();
+    }
 }
