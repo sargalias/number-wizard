@@ -661,6 +661,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8127192755365170619, guid: 35eae130b08fd1441802eda9ace9f518,
+        type: 3}
+      propertyPath: m_Text
+      value: '"Think of a number between 1 and 1000. Let''s see if you can keep it
+        secret."'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35eae130b08fd1441802eda9ace9f518, type: 3}
 --- !u!1001 &8170903795624091059
